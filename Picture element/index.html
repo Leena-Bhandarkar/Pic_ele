@@ -1,0 +1,21 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Images with Picture Element</title>
+</head>
+<body>
+    <h2>Responsive Image Example with &lt;picture&gt; Element</h2>
+
+    <picture>
+        <source media="(min-width:650px)" srcset="Jsmin.jpg">
+        <source media="(min-width:465px)" srcset="Lotus.jpg">
+
+        
+        <img src="rose.jpg" alt="rose">
+    </picture>
+
+    <p>This is a simple example demonstrating how to use the <code>&lt;picture&gt;</code> element for responsive images.</p>
+</body>
+</html>
